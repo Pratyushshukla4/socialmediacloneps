@@ -8,7 +8,7 @@ import {
   // Switch,
   Route,
   Routes,
-  Link
+//   Link
 } from "react-router-dom";
 
 const App = () => {

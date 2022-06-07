@@ -1,0 +1,124 @@
+.profile{
+    display: flex;
+    z-index: -1;
+}
+.profilerightbar{
+    flex: 2;
+    margin-left: 15px;
+   
+}
+.profileright{
+    flex: 9;
+   
+}
+.profilerightbottom
+{
+    display: flex;
+}
+.profilecoverimg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+}
+.profoleuserimg{
+   width:  300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    top: 100px;
+    
+    left: 0;
+    right: 0;
+    margin: auto;
+border: 3px solid white;
+    position: absolute;
+}
+.profileinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.profilecover{
+
+position: relative;
+height: 350px;
+}
+.profileinfoname{
+   
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.rightbarfollowingimg{
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+   
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.rightbarfollowing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  
+}
+.rightbarfollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.rightbartitle{
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.rightbarinfo{
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+.rightbarinfiitm{
+    margin-bottom: 10px;
+}
+.rightbarinfokey{
+    font-weight: 300;
+    color: blueviolet;
+}
+
+@media only screen and (max-width: 607px) {
+
+.profilerightbar{
+    margin-left: 2px;
+}
+}
+@media only screen and (max-width: 470px) {
+
+    .profilerightbar{
+        display: none;
+    }
+    .profoleuserimg {
+        width: 251px;
+        height: 251px;
+        
+        
+        top: 150px;
+    }
+}
+@media only screen and (max-width: 310px) {
+
+    .profoleuserimg {
+        width: 201px;
+        height: 200px;
+        
+        
+        top: 184px;
+    }
+    
+}

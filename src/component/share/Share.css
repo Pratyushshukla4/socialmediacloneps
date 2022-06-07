@@ -1,0 +1,122 @@
+.share{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100%;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: 2px -2px 4px 7px rgba(151,142,142,0.69);
+-webkit-box-shadow: 2px -2px 4px 7px rgba(151,142,142,0.69);
+-moz-box-shadow: 2px -2px 4px 7px rgba(151,142,142,0.69);
+
+}
+.sharewraper{
+    padding: 10px
+}
+.sharetop{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    /* justify-content: center; */
+}
+.shareprofileimg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 13px;
+}
+.shareinput{
+    border: none;
+   height: 50px;
+}
+.shareinput:focus{
+    outline: none;
+}
+.shareicon{
+    margin-right: 10px;
+}
+.shareoption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+.shareoptions{
+    display: flex;
+    /* align-items: center;
+    cursor: pointer; */
+    justify-content: space-evenly;
+    
+}
+.sharebottom{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.sharebotton{
+    border: none;
+    background-color: green;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+@media only screen and (max-width: 550px) {
+
+    /* .shareprofileimg{
+
+    width: 30px;
+    } */
+
+    .shareicon{
+        margin-right: 4pxpx;
+    }
+    .shareoption{
+        /* display: flex;
+        align-items: center;
+        cursor: pointer; */
+        margin-right: 10px;
+    
+    }
+    .share{
+        width: 98%;
+    }
+    .fff{
+        display: none;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .nnn{
+        display: none;
+    }
+    .shareoption{
+
+          margin-right: 3px;
+    }
+    .shareoption{
+        margin-right: 3px;
+    }
+
+    .shareinput{
+        width: 115px;
+    }
+    .shareprofileimg{
+        margin-right: 5px;
+    }
+    
+
+     .share{
+         margin-left: 1px;
+     }
+
+
+     .sharetop{
+         margin-left: 5px;
+     }
+}

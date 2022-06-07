@@ -1,0 +1,152 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #f2f0f5;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.loginwrapper{
+width: 70%;
+height: 70%;
+/* background-color: yellow; */
+display: flex;
+/* border: 2px solid red; */
+}
+.loginlogo{
+    font-size: 50px;
+    font-weight: 500;
+    color: #1777ee;
+    margin-bottom: 10px;
+}
+.logindesc{
+    font-size: 24px;
+}
+.loginleft,.loginright{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+.loginbox{
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.logininput{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 3px;
+}
+.logininput:focus{
+    outline: none;
+}
+.loginbutton{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #1777ee;
+    font-size: 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.loginbutton:hover{
+    background-color: blue;
+}
+.forgotpass{
+    text-align: center;
+    color: #1777ee;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+.register{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #42b72a;
+    font-size: 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+.register:hover{
+    background-color: green;
+}
+.loginbox2{
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 660px) {
+
+    .loginwrapper{
+        /* flex-direction: column; */
+        width: 90%;
+    }
+}
+    
+@media only screen and (max-width: 300px) {
+
+    
+    .loginbox{
+        width: 200px;
+    }
+    .logininput{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 257px) {
+
+    
+    .loginbox{
+        width: 150px;
+    }
+    .logininput{
+        font-size: 15px;
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 500px) {
+
+    .loginleft{
+  display: none;
+    }
+    
+}
+@media only screen and (max-height: 420px) {
+
+   .logininput{
+       margin-bottom: 8px;
+   }
+   .forgotpass{
+       margin-bottom: 6px;
+   }
+   .loginbutton{
+       margin-bottom: 8px;
+   }
+    
+}

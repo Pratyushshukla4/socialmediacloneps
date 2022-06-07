@@ -1,0 +1,8 @@
+.feed{
+    flex: 4;
+}
+/* @media only screen and (max-width: 400px) {
+    /* .add{
+        height: 155px;
+    } */
+    /* .rightbar{display: none;} */

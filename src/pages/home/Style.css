@@ -1,0 +1,11 @@
+.homePge{
+    display: flex;
+}
+body{
+    overflow-x: hidden;
+}
+@media only screen and (max-width: 550px) {
+    .sidedisplay{
+        display: none;
+    }
+}

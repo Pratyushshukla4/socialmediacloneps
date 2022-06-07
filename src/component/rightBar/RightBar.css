@@ -1,0 +1,82 @@
+.rightbar{
+    flex: 2;
+}
+.rightbarwrapper{
+    padding: 20px 0px 0 10px;
+}
+.birthdaycontainer{
+    display: flex;
+    align-items: center;
+}
+.birthdayimg{
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+    margin-right: 12px;
+}
+.birthdaytext{
+   font-size: 18px;
+}
+.add{
+    width: 95%;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+    /* padding: 10px; */
+}
+.rightbarfrdlist{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 10px;
+}
+.rightbarprofileimg{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.rightbarfrd{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.rightbarprofileimg{
+    margin-right: 15px;
+    position: relative;
+}
+.rightbaronline{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: -3px;
+    right: -7px;
+    border: 2px solid white;
+}
+.rightbarusername{
+    font-weight: 600;
+}
+.onlinefrds{
+    margin-left: 10px;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .add{
+        height: 205px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .add{
+        height: 155px;
+    }
+}
+@media only screen and (max-width: 620px) {
+    /* .add{
+        height: 155px;
+    } */
+    .rightbar{display: none;}
+}

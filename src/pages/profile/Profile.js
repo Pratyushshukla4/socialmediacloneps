@@ -1,7 +1,7 @@
 import React from 'react'
 import Feed from '../../component/feed/Feed'
 import SideBar from '../../component/sideBar/SideBar'
-import RightBar from '../../component/rightBar/RightBar'
+// import RightBar from '../../component/rightBar/RightBar'
 import Topbar from '../../component/topbar/Topbar'
 import "./Profile.css"
 import Profilerightbar from './Profilerightbar'

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Login.css"
 import {
-    BrowserRouter as Router,
+//     BrowserRouter as Router,
     // Switch,
     // Route,
     // Routes,
